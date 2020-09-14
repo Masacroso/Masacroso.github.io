@@ -196,6 +196,7 @@ pluto-output h1 {
 pluto-output h2 {
 	font-size: 1.4rem;
 	margin-top: 2rem;
+	margin-bottom: 1rem;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -203,6 +204,7 @@ pluto-output h2 {
 pluto-output h3 {
 	font-size: 1.2rem;
 	margin-top: 2rem;
+	margin-bottom: 1rem;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -240,4 +242,4 @@ a {
 # ╠═be6e94ba-e348-11ea-266f-5db3b1bdac4f
 # ╟─d62aac62-e348-11ea-3d67-9f5f3ea4153d
 # ╠═e4687548-e348-11ea-0220-77cc51810696
-# ╟─b3cab972-f6b8-11ea-3a9c-7b4812b7f1ea
+# ╠═b3cab972-f6b8-11ea-3a9c-7b4812b7f1ea
