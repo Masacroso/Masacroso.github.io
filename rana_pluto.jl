@@ -5,7 +5,7 @@ using Markdown
 using InteractiveUtils
 
 # ╔═╡ a8d44618-e345-11ea-27ae-5ba05cd4d00e
-md"# **Estimando la distribución de una variable aleatoria: el problema de la rana**
+md"# Estimando la distribución de una variable aleatoria: el problema de la rana
 
 El *problema de la rana* dice lo siguiente: supongamos que hay una rana que siempre salta la misma distancia, y cada vez que salta lo hace aleatoriamente en cualquier dirección, entonces ¿cuál es la distribución de probabilidad de la distancia al origen después de $n$ saltos?
 
@@ -169,13 +169,9 @@ end
 # ╔═╡ b3cab972-f6b8-11ea-3a9c-7b4812b7f1ea
 html"""
 <style>
-body {
-	background-color: white;
+body, pluto-output {
+	background-color: hsl(80, 25%, 95%);
 }
-
-/*p {
-	text-indent: 20px;
-}*/
 
 .js-plotly-plot {
 	margin: auto;
@@ -184,6 +180,15 @@ body {
 main {
 	max-width: 100vw;
 	width: 90vw;
+}
+
+pluto-input * {
+	font-size: .85rem;
+}
+
+pluto-output * {
+	color: black;
+	font-size: 1rem;
 }
 
 pluto-output h1 {
@@ -213,10 +218,6 @@ pluto-output p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-pluto-input * {
-	font-size: .85rem;
-}
-
 pluto-output code {
 	font-size: .8rem;
 }
@@ -242,4 +243,4 @@ a {
 # ╠═be6e94ba-e348-11ea-266f-5db3b1bdac4f
 # ╟─d62aac62-e348-11ea-3d67-9f5f3ea4153d
 # ╠═e4687548-e348-11ea-0220-77cc51810696
-# ╠═b3cab972-f6b8-11ea-3a9c-7b4812b7f1ea
+# ╟─b3cab972-f6b8-11ea-3a9c-7b4812b7f1ea
