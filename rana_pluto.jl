@@ -60,7 +60,7 @@ function rd(n::Int)
         p += exp(2pi * im * rand())
     end
     return abs(p)
-end;
+end
 
 # ╔═╡ e60054f6-e347-11ea-3f78-ebacf927b0c8
 md"A partir de la función anterior generamos un vector que contenga un número suficientemente grande de experimentos aleatorios (nuestra muestra simulada), y lo haremos con la siguiente función
@@ -73,7 +73,7 @@ function sim(n::Int, m::Int = 20)
         datos[i] = rd(n) # llenamos el vector con distancias aleatorias simuladas
     end
     return datos
-end;
+end
 
 # ╔═╡ 2b28e130-e348-11ea-0b41-a940aa95b44e
 begin
@@ -188,20 +188,36 @@ main {
 
 pluto-output h1 {
 	font-size: 1.7rem;
-	margin: 10px;
-	font-weight: normal;
+	margin-bottom: 2rem;
+	font-weight: bold;
+  	font-family: Arial, Helvetica, sans-serif;
 }
 
 pluto-output h2 {
 	font-size: 1.4rem;
-	margin: 5px;
-	font-weight: normal;
+	margin-top: 2rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 pluto-output h3 {
 	font-size: 1.2rem;
-	margin: 5px;
-	font-weight: normal;
+	margin-top: 2rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+pluto-output p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.CodeMirror-code {
+	font-size: .9rem;
+}
+
+pluto-output code {
+	background-color: hsl(200,25%,95%);
+	font-size: .8rem;
 }
 
 a {
