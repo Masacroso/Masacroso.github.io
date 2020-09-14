@@ -90,7 +90,7 @@ begin
     p = plot!(f, 0, n, l = :dot, w = 2, color = c,
         label = "PDF de $n saltos estimada por el TLC")
 	return p
-	end;
+	end
 end
 
 # ╔═╡ be6e94ba-e348-11ea-266f-5db3b1bdac4f
@@ -113,7 +113,7 @@ begin
     p = plot!(r, de(r), l = :dot, w = 2, color = c,
         label = "CDF empírica de la muestra para $n saltos")
 	return p
-	end;
+	end
 end
 
 # ╔═╡ 058c8bc0-e348-11ea-00e5-df57682b2fd6
@@ -211,12 +211,11 @@ pluto-output p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.CodeMirror-code {
-	font-size: .9rem;
+pluto-input * {
+	font-size: .85rem;
 }
 
 pluto-output code {
-	background-color: hsl(200,25%,95%);
 	font-size: .8rem;
 }
 
