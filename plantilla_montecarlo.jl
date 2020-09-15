@@ -33,7 +33,7 @@ md"# Plantilla para el análisis de un proceso estocástico por el método de Mo
 
 El siguiente documento presenta una serie de pasos y técnicas que definen un método básico y general para el análisis de un proceso estocástico utilizando el método de Monte Carlo a través del lenguaje de programación [Julia](https://julialang.org/).
 
-*Nota: si estás viendo este cuaderno como un archivo `html` entonces las funciones interactivas no estarán disponibles. Puedes ver el cuaderno original haciendo click [aquí](./plantilla_montecarlo.jl).*
+*Nota: si estás viendo este cuaderno como un archivo `html` entonces las funciones interactivas no estarán disponibles. El cuaderno original es [éste](./plantilla_montecarlo.jl).*
 
 ## 1. Modelo matemático del proceso estocástico y código de representación en Julia:
 
